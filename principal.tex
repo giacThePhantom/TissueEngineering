@@ -1,29 +1,24 @@
 \input{prefix}  % Place all packages in the prefix file
 
 % Set up document info
-\title{\Huge\textbf{courseName}}
+\title{\Huge\textbf{Tissue Engineering \\ - Motta -}}
 \author{
-  authorName \\
-  \small telegram: \href{telegramLink}{@authorName} \\[3pt]
-\small Github: \href{mainRepoLink}{mainRepoLink}}
+  Stefano Cretti\\
+  \small telegram: \href{https://t.me/StefanoCretti}{@StefanoCretti} \\[3pt]
+\small Github: \href{https://github.com/StefanoCretti/TissueEngineering.git}{https://github.com/StefanoCretti/TissueEngineering.git}}
 
 % File structure to expand
 % Files should be named #section #chapter chapterName
 \begin{document}
 \maketitle
 \tableofcontents
-
-  % Add introduction if needed
-  % Parts may not be needed, chapters could be enough
   
-  \part{nameOfPart01}
-
-    \input{chapters/0101chapterName}
-
-  \part{nameOfPart02}
-
-    \input{chapters/0201chapterName}
+  \part{Introduction}
   
+    \input{chapters/0101generalInfo}
+    % TODO Just in a random position to test it
+    \input{chapters/0201provisional}
+
   % Add appendix if needed
 
 \end{document}
